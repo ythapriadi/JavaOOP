@@ -40,6 +40,7 @@ public class Main {
 
         Player.showNumberOfPlayer();
         System.out.println("Names = " + Player.getNames());
+        // System.out.println("Names = " + player1.getNames()); //ini bisa dilakukan
         
     }
 }
