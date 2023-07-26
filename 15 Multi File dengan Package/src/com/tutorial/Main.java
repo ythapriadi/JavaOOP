@@ -1,5 +1,7 @@
 package com.tutorial;
 
+//keyword import untuk package eksternal
+import com.terminal.Console;
 
 class Main{
     public static void main(String[] args) {
@@ -10,5 +12,8 @@ class Main{
         player1.show();
         player2.show();
         player3.show();
+
+        Console.log("Hallo");
+
     }
 }
