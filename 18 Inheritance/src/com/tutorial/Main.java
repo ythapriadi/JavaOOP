@@ -6,6 +6,10 @@ package com.tutorial;
 class Hero{
     String name;
 
+    //method
+    void display(){
+        System.out.println("Name : " + this.name);
+    }
 }
 
 //subsclass, child class, derived class
@@ -15,7 +19,7 @@ class heroStrength extends Hero{
 }
 
 class heroIntelligent extends Hero{
-
+     //Hampa atau kosong
 }
 
 public class Main{
@@ -23,15 +27,15 @@ public class Main{
 
         Hero hero1 = new Hero();
         hero1.name = "YTH";
-        System.out.println("Hero 1 : " + hero1.name);
+        hero1.display();
         
         heroStrength hero2 = new heroStrength();
         hero2.name = "Kuteki";
-        System.out.println("Hero 2 : " + hero2.name);
+        hero2.display();
 
         heroIntelligent hero3 = new heroIntelligent();
         hero3.name = "Zabuton";
-        System.out.println("Hero 3 : " + hero3.name);
+        hero3.display();
         
     }
 }
