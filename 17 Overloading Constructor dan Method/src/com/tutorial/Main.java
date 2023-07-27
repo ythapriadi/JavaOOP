@@ -12,6 +12,13 @@ public class Main {
         player2.show();
         player3.show();
         player4.show();
+
+        //Overloading methods
+        int a = Matematika.tambah(7, 3);
+        System.out.println(a);
+
+        double b = Matematika.tambah(1,0.5);
+        System.out.println(b);
         
     }
 }
